@@ -19,7 +19,7 @@
         rgba(116, 116, 116, 0.15) 10%,
         rgba(116, 116, 116, 0.15) 20%
       );
-    background-color: rgb(0, 154, 173);
+    background-color: rgba(53, 253, 120, 0.842);
     user-select: none;
     padding: 20px;
   }
@@ -49,17 +49,6 @@
     user-select: none;
     padding: 4vw;
   }
-
-
-@font-face {
-    font-family: centurygoth;
-    src: url(../resources/fonts/GOTHIC.TTF);
-}
-
-@font-face {
-    font-family: lithos;
-    src: url(../resources/fonts/LithosPro-Regular.otf);
-}
 
 @media only screen and (orientation:portrait) {
     .top {
@@ -175,7 +164,7 @@ html {
 
 html[data-theme='dark'] {
     --text-color: #F1F1F1;
-    --bg-color: #334859;
+    --bg-color: #1f1c1cd8;
     --link-color: #a5c0f0;
     --table-head: #273b46;
     --table-body-even: #334859;
@@ -197,7 +186,7 @@ body {
 
 .title {
     font-family: lithos;
-    text-align: ;
+    text-align: center;
     font-size: 42px;
     margin-top: 0.1em;
     margin-bottom: 0.1em;
@@ -207,9 +196,9 @@ body {
     margin: auto;
     width: 100%;
     text-align: center;
-    color: #ffffff;
+    color: #382e2e;
     background: var(--top-bg-reg);
-    background-color: #f84f4f;
+    background-color: #ff6638;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -249,7 +238,7 @@ countdown {
 }
 
 .boundboxb {
-    background-color: rgba(120, 120, 120, 0.3);
+    background-color: rgba(51, 51, 51, 0.3);
     border-radius: 10px;
     display: block;
     width: 100%;
@@ -263,48 +252,6 @@ countdown {
     color: #a5c0f0;
 }
 
-
-.active {
-    background: repeating-linear-gradient(0deg, rgba(43, 123, 181, 0.35) 0%, rgba(43, 123, 181, 0.35) 90%, rgba(68, 180, 221, 0.44) 90%, rgba(68, 180, 221, 0.44) 100%);
-    text-decoration: none;
-}
-
-
-thead {
-    border: 1px solid var(--table-border);
-    color: #eee;
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    background-color: var(--table-head);
-}
-
-tbody tr:nth-child(even) {
-    background-color: var(--table-body-even);
-}
-
-tbody tr:nth-child(odd) {
-    background-color: var(--table-body-odd);
-}
-
-td,
-th,
-tr {
-    border: 1px solid var(--table-border);
-    text-align: center;
-    padding: 8px;
-    width: 33%;
-}
-
-.pixelmon {
-    height: auto;
-    image-rendering: crisp-edges;
-    image-rendering: -webkit-optimize-contrast;
-    display: inline-block;
-    line-height: inherit;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 #species,
 #nestCC {
@@ -321,13 +268,10 @@ tr {
 
 .btn {
     color: #ffffffe0;
-    background-color: rgba(110, 176, 252, 0.466);
+    background-color: rgba(22, 131, 255, 0.466);
 }
 .buttonalu {
-    /*position: absolute;
-    left: 51%;
-    transform: translate(-63%, 0%);
-    z-index: 1;*/
+
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -379,26 +323,6 @@ html.transition *:after {
         line-height: 26px;
         margin-top: 12px;
         margin-bottom: 0;
-    }
-
-    ul.navbar li {
-        width: 14.2%;
-        min-height: 50px;
-        max-height: 50px;
-    }
-
-    ul.navbar li a {
-        color: white;
-        text-decoration: none;
-        max-height: 50px;
-        line-height: 24px;
-        text-align: center;
-        white-space: nowrap;
-    }
-
-    .top {
-        background: var(--top-bg-mobile);
-        background-color: #f84f4f;
     }
 
     .faNavbar {
