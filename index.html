@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html data-theme="dark" data-page="home" class="">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <div class="navbar">
+            <img class="navbarLogo" src="https://media.discordapp.net/attachments/765842312554872853/779967370739318804/pgs_logo.gif"/>Pokemon PGS
+          </div>    
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0">
+    <link rel="shortcut icon" href="https://media.discordapp.net/attachments/765842312554872853/779967370739318804/pgs_logo.gif" type="image/x-icon">
+    <link rel="icon" href="https://media.discordapp.net/attachments/765842312554872853/779967370739318804/pgs_logo.gif" type="image/x-icon">
+    <title>Pokemon PGS</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/flag-icon.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/cdc.css">
+
+
+    <!-- JS -->
+    <script src="./js/jquery-3.4.1.min.js.download"></script>
+    <script src="./js/moment.js.download" type="text/javascript"></script>
+    <script src="./js/moment-timezone-with-data-2012-2022.js.download"></script>
+    <script src="./js/clipboard.min.js.download"></script>
+    <script type="text/javascript" src="./js/abpBlock.js.download"></script>
+<link rel="preload" href="./Master Nest - Home_files/f(2).txt" as="script"><script type="text/javascript" src="./Master Nest - Home_files/f(2).txt"></script><link rel="preload" href="./Master Nest - Home_files/f(3).txt" as="script"><script type="text/javascript" src="./Master Nest - Home_files/f(3).txt"></script></head>
+
+<body>
+    
+    <div class="top" id="top">
+        <div class="boundbox">
+            <h3 style="margin-bottom:0; margin-top:10px;"><span class="countdownTitle"></strong>Nest Migration Timer</strong></span><br><span id="clock"><countdown>04 Days 05 Hours<br>41 Minutes 53 Seconds</countdown></span></h3>
+        </div>
+    </div>
+    
+    <h4 style="text-align:center; margin-bottom:0em;"><a href="https://discord.gg/yaFNCak">[ Pokemon PGS ]</a></h4>
+    <h4 style="font-family:lithos;; text-align:center; margin-top:0em;">A Nest Report</h4>
+    <br>
+    <p class="bodyText">
+        Welcome to The Master Nest! This is the ultimate resource for Pokémon Go nests. We offer a list of the top worldwide nests organized by Pokémon species, separated by generation; plus a GPX section where you can get a custom route for the nest you wish to play on. Hop around the pages and start hunting!
+    </p>
+    <p class="bodyText">
+        Our home and base of operations is the CoolDown Club discord server, which you can access <a href="https://discord.gg/yaFNCak">[here]</a>. You can find organized raids, rare Pokémon spawns, mini-games and much more! Plus it is the best place to report any discrepancies you may find in this report, as we manually research and submit each nest each migration.
+    </p>
+    <p class="bodyText">
+        And keep in mind the following list, these are <strong>the only species that nest</strong>, any other Pokémon is only obtainable through regular spawns, eggs, research or raids!
+    </p>
+
+    <br>
+    <button class="btn btn-default button" id="showhide-button" onclick="showText()">Show Nesting Species</button>
+    <br>
+    <p class="bodyNesting" id="nesting-species">
+        <strong>
+            Abra, Aipom, Anorith, Baltoy, Bidoof, Blitzle, Bulbasaur, Buneary<br>Carvanha, Charmander, Chikorita, Chimchar, Chinchou, Clefairy, Corphish, Croagunk, Cubone, Cyndaquil, Deerling, Doduo, Dunsparce, Duskull<br>Eevee, Electabuzz, Electrike, Exeggcute, Foongus<br>Gastly, Girafarig, Growlithe, Hippopotas, Horsea<br>Jynx, Kabuto, Kricketot<br>Lileep, Lillipup, Luvdisc, Machop, Magikarp, Magmar, Magnemite, Makuhita, Mantine, Meditite, Minun, Misdreavus, Mudkip<br>Nosepass, Numel, Oddish, Omanyte, Onix, Oshawott<br>Patrat, Phanpy, Pikachu, Pinsir, Piplup, Plusle, Poliwag, Ponyta, Poochyena, Psyduck, Purrloin<br>Qwilfish, Rhyhorn<br>Sableye, Scyther, Seedot, Seel, Shellder, Shroomish, Shuckle, Shuppet, Skarmory, Skitty, Sneasel, Snivy, Snubbull, Spoink, Squirtle, Stantler, Stunky, Sudowoodo, Surskit, Swablu, Swinub<br>Teddiursa, Tentacool, Tepig, Torchic, Totodile, Treecko, Turtwig, Voltorb, Vulpix<br>Wailmer, Wingull, Wobbuffet, Yanma
+        </strong>
+    </p>
+    
+    <br>
+    <a href="https://discord.com/invite/nHu2uqN" class="btn buttonalu button">Join our Discord Server <img src="./images/discord_em.png" alt="iTools Logo" class="iToolsLogo">
+    </a>
+    <!-- Body JS -->
+    <script src="./js/countdown.js.download" type="text/javascript"></script>
+    <script src="./js/buildTable.js.download" type="text/javascript"></script>
+    <script src="./js/buildHTML.js.download" type="text/javascript"></script>
+    <script type="text/javascript">
+        var migration = new Date(migrationDate);
+        $('#clock').countdown(migration, function(event) {
+            var $this = $(this).html(event.strftime(
+                '<countdown>%Ddays ' +
+                '%Hhrs ' +
+                '%Mmins ' +
+                '%Ssecs</countdown>'));
+            if (event.elapsed) {
+                window.location.replace("http://themasternest.net/")
+            }
+        });
+        window.onload = buildHTMLPage();
+        window.onscroll = () => {stickyNavbar()};
+    </script>
+</iframe></html>

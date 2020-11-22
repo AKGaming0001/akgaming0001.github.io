@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  font-family: "Oswald", sans-serif;
+  font-size: 38px;
+  color: #f0f0f0;
+  text-shadow: 0px 0px 10px #0f0f0f;
+  text-align: center;
+  background: repeating-linear-gradient(
+      45deg,
+      rgba(233, 233, 233, 0.2) 0%,
+      rgba(233, 233, 233, 0.2) 10%,
+      rgba(201, 201, 201, 0.2) 10%,
+      rgba(201, 201, 201, 0.2) 20%
+    ),
+    repeating-linear-gradient(
+      135deg,
+      rgba(145, 145, 145, 0.15) 0%,
+      rgba(145, 145, 145, 0.15) 10%,
+      rgba(116, 116, 116, 0.15) 10%,
+      rgba(116, 116, 116, 0.15) 20%
+    );
+  background-color: rgb(0, 154, 173);
+  user-select: none;
+  padding: 20px;
+}
+
+.navbarLogo {
+  height: 46px;
+  vertical-align: sub;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 38px;
+  text-align: center;
+  color: #0f0f0f;
+  text-shadow: 0px 0px 6px #eaeaea;
+  user-select: none;
+  padding: 4vw;
+}
+
+.title2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: #0f0f0f;
+  text-shadow: 0px 0px 2px #eaeaea;
+  user-select: none;
+}
+
+
+.btn:hover {
+  background-color: #ddd;
+  border: 1px solid #fff;
+}
+
+.discord {
+    background: #7187d8;
+    color: white;
+}
+
+@media only screen and (min-width: 500px) {
+  .infoContainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+  }
+
+  .title {
+    padding: 1vw;
+  }
+}
