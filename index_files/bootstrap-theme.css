@@ -601,7 +601,7 @@ body {
 .logo {margin-top:15%;margin-bottom:15px;}
 .ad-unit {bottom:5px;max-height:100px;max-width:700px;width:95%;position:absolute;margin:0 auto;left:0;right:0;}
 
-body {background-image:url("/inc/nest-migration-bg.jpg");background-color:#40A21E;background-size:cover;background-position:center center;font-family: 'Lato', sans-serif;color:#fff;}
+body {background-image:url("/inc/nest-migration-bg.jpg");background-color:#ff6666;background-size:cover;background-position:center center;font-family: 'Lato', sans-serif;color:#fff;}
 h1 {font-size:22px;}
 #clock {margin-top:35px;}
 #clock div.holder {display:inline-block;}
