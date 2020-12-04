@@ -4,7 +4,21 @@
         <div class="navbar">
             <img class="navbarLogo" src="https://media.discordapp.net/attachments/765842312554872853/779967370739318804/pgs_logo.gif"/>Pokemon PGS
           </div>    
-	<title>Pokemon PGS</title>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0">
+    <link rel="shortcut icon" href="https://media.discordapp.net/attachments/765842312554872853/780019040453525524/pgs.png" type="image/x-icon">
+    <link rel="icon" href="https://media.discordapp.net/attachments/765842312554872853/780019040453525524/pgs.png" type="image/x-icon">
+    <title>  Pokemon PGS</title>
+    <!-- CSS 
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/pgs.css">
+
+
+
+     
+    <script src="./js/jquery-3.4.1.min.js.download"></script>
+    <script src="./js/moment.js.download" type="text/javascript"></script>
+    <script src="./js/moment-timezone-with-data-2012-2022.js.download"></script>-->
+        
     <!-- CSS -->
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/pgs.css">
@@ -26,7 +40,7 @@
 	<meta property="og:title" content="Pokemon PGS | Official Home of PGS ⬩ Togepi-bot#8777">
 	<meta property="og:description" content="Find out when the next Pokemon GO nest migration should occur!">
 	<meta property="og:url" content="https://akgaming.github.io/">
-	<meta property="og:image" content="https://media.discordapp.net/attachments/765842312554872853/782580413993320508/1606650931801.png?width=1025&height=227">
+	<meta property="og:image" content="https://media.discordapp.net/attachments/765842312554872853/779967370739318804/pgs_logo.gif">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@Pokemon_PGS">
 	<meta name="twitter:title" content="Pokemon PGS | Official Home of PGS ⬩ Togepi-bot#8777">
@@ -38,91 +52,82 @@
 			<div class="col-md-8 col-md-offset-2 text-center">
 				<img src="./index_files/nest-migration.png" alt="Pokemon Nest Migration" class="img-responsive logo">
 				<div id="clock"><div class="holder"><div class="item"><span>00</span> Week</div><div class="item"><span>00</span> Day(s)</div></div><div class="holder"><div class="item"><span>00</span> Hr(s)</div><div class="item"><span>00</span> Min(s)</div><div class="item"><span>00</span> Sec(s)</div></div></div>
-				<h1>Until the next Pokemon GO nest migration</h1>
+				<h1>Left for the Next Pokemon Go Migrtion</h1>
 			</div>
 		</div>
 	</div>
-	<!--<div class="top" id="top">
-		<div class="boundbox">
-			<button class="glow-on-hover button" id="showhide-button" onclick="showText()">Show Nesting Species</button>
-			<br>
-			<p class="bodyNesting" id="nesting-species">
-			<strong>Gen1 Pokemons</strong><br>Abra,Bulbasaur,Charmander,Clefairy,Cubone,Doduo,Eevee,Electabuzz,Exeggcute,Gastly,Growlithe,Horsea,<br>Jynx,Kabuto,Machop,Magikarp,Magmar,Magnemite,Oddish,Omanyte,Onix,<br>Pikachu,Pinsir,Poliwag,Ponyta,Psyduck,Rhyhorn,Scyther,Seel,<br>Shellder,Squirtle,Tentacool,Voltorb,Vulpix<br><br><strong>Gen2 Pokemons</strong><br>Aipom,Chikorita,Chinchou,Cyndaquil,Dunsparce,Girafarig,Mantine,Misdreavus,Phanpy,Qwilfish,Shuckle,<br>Skarmory,Sneasel,Snubbull,Stantler,Sudowoodo,Swinub,Teddiursa,Totodile,Wobbuffet,Yanma<br><br><strong>Gen3 Pokemons</strong><br>Anorith,Baltoy,Carvanha,Corphish,Duskull,Electrike,Lileep,Luvdisc,Makuhita,Meditite,Minun,Mudkip,<br>Nosepass,Numel,Plusle,Poochyena,Sableye,Seedot,Shroomish,Shuppet,<br>Skitty,Spoink,Surskit,Swablu,Torchic,Treecko,Wailmer,Wingull<br><br><strong>Gen4 Pokemons</strong><br>Bidoof,Buneary,Chimchar,Croagunk,Hippopotas,Kricketot,Piplup,Stunky,Turtwig<br><br><strong>Gen5 Pokemons</strong><br>Blitzle,Foongus,Lillipup,Oshawott,Patrat,Purrloin,Snivy,Tepig
-			</p>   
-			<br>			
-		</div>
-	</div>
-	<br>
-	<button class="glow-on-hover button" id="showhide-button" onclick="showText()">Show Nesting Species</button>
-	<br>
+<body>
+    
+    <div class="top" id="top">
+        <div class="boundbox">
+        </div>
+    </div>
+    <br>
+    <button class="glow-on-hover button" id="showhide-button" onclick="showText()">Show Nesting Species</button>
+    <br>
 	<p class="bodyNesting" id="nesting-species">
-	<strong>Gen1 Pokemons</strong><br>Abra,Bulbasaur,Charmander,Clefairy,Cubone,Doduo,Eevee,Electabuzz,Exeggcute,Gastly,Growlithe,Horsea,<br>Jynx,Kabuto,Machop,Magikarp,Magmar,Magnemite,Oddish,Omanyte,Onix,<br>Pikachu,Pinsir,Poliwag,Ponyta,Psyduck,Rhyhorn,Scyther,Seel,<br>Shellder,Squirtle,Tentacool,Voltorb,Vulpix<br><br><strong>Gen2 Pokemons</strong><br>Aipom,Chikorita,Chinchou,Cyndaquil,Dunsparce,Girafarig,Mantine,Misdreavus,Phanpy,Qwilfish,Shuckle,<br>Skarmory,Sneasel,Snubbull,Stantler,Sudowoodo,Swinub,Teddiursa,Totodile,Wobbuffet,Yanma<br><br><strong>Gen3 Pokemons</strong><br>Anorith,Baltoy,Carvanha,Corphish,Duskull,Electrike,Lileep,Luvdisc,Makuhita,Meditite,Minun,Mudkip,<br>Nosepass,Numel,Plusle,Poochyena,Sableye,Seedot,Shroomish,Shuppet,<br>Skitty,Spoink,Surskit,Swablu,Torchic,Treecko,Wailmer,Wingull<br><br><strong>Gen4 Pokemons</strong><br>Bidoof,Buneary,Chimchar,Croagunk,Hippopotas,Kricketot,Piplup,Stunky,Turtwig<br><br><strong>Gen5 Pokemons</strong><br>Blitzle,Foongus,Lillipup,Oshawott,Patrat,Purrloin,Snivy,Tepig
-	</p>   
-	<br>-->
-	
+        <strong>Gen1 Pokemons</strong><br>Abra,Bulbasaur,Charmander,Clefairy,Cubone,Doduo,Eevee,Electabuzz,Exeggcute,Gastly,Growlithe,Horsea,<br>Jynx,Kabuto,Machop,Magikarp,Magmar,Magnemite,Oddish,Omanyte,Onix,<br>Pikachu,Pinsir,Poliwag,Ponyta,Psyduck,Rhyhorn,Scyther,Seel,<br>Shellder,Squirtle,Tentacool,Voltorb,Vulpix<br><br><strong>Gen2 Pokemons</strong><br>Aipom,Chikorita,Chinchou,Cyndaquil,Dunsparce,Girafarig,Mantine,Misdreavus,Phanpy,Qwilfish,Shuckle,<br>Skarmory,Sneasel,Snubbull,Stantler,Sudowoodo,Swinub,Teddiursa,Totodile,Wobbuffet,Yanma<br><br><strong>Gen3 Pokemons</strong><br>Anorith,Baltoy,Carvanha,Corphish,Duskull,Electrike,Lileep,Luvdisc,Makuhita,Meditite,Minun,Mudkip,<br>Nosepass,Numel,Plusle,Poochyena,Sableye,Seedot,Shroomish,Shuppet,<br>Skitty,Spoink,Surskit,Swablu,Torchic,Treecko,Wailmer,Wingull<br><br><strong>Gen4 Pokemons</strong><br>Bidoof,Buneary,Chimchar,Croagunk,Hippopotas,Kricketot,Piplup,Stunky,Turtwig<br><br><strong>Gen5 Pokemons</strong><br>Blitzle,Foongus,Lillipup,Oshawott,Patrat,Purrloin,Snivy,Tepig
+        </p>         
+    <br>
+
+
 	<p align="center">
-	<a href="https://discord.gg/JwG45YFgyQ">
-	<img src="https://discord.com/api/guilds/780052013924220968/widget.png?style=shield" alt="Discord Server">
-	</a>     
-	<br>
-	<div id="iframe-wrapper">
-		<p align="center">
-		<iframe src="https://discord.com/widget?id=780052013924220968&theme=dark" width="325" height="355" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-	</div>     
-	<br>
-	<p align="center">
-	<a href="https://discord.com/oauth2/authorize?client_id=743835126730981456&scope=bot&permissions=66321471" align="center" class="chamkeela"><img src="./images/togepi_bot.png" class="iToolsLogo">Add PGS ⬩ Togepi-bot 
-	<br>     		
-	</div>
-	<script src="./index_files/jquery.min.js.download"></script>
-	<script src="./index_files/jquery.countdown.min.js.download"></script>
-	<script type="text/javascript">
-		var migrate = new Date('2020-12-10T01:00:00Z');
-		$('#clock').countdown(migrate, function(event) {
-			var $this = $(this).html(event.strftime(''
-			+ '<div class="holder"><div class="item"><span>%w</span> Week</div>'
-			+ '<div class="item"><span>%d</span> Day(s)</div></div>'
-			+ '<div class="holder"><div class="item"><span>%H</span> Hr(s)</div>'
-			+ '<div class="item"><span>%M</span> Min(s)</div>'
-			+ '<div class="item"><span>%S</span> Sec(s)</div></div>'));
-			if (event.elapsed) {
-				location.reload();
-			}
-		});
-	</script>
+        <a href="https://discord.gg/JwG45YFgyQ">
+        <img src="https://discord.com/api/guilds/780052013924220968/widget.png?style=shield" alt="Discord Server">
+        </a>     
+        <br>
+        <div id="iframe-wrapper">
+            <p align="center">
+            <iframe src="https://discord.com/widget?id=780052013924220968&theme=dark" width="325" height="355" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        </div>     
+        <br>
+        <p align="center">
+        <a href="https://discord.com/oauth2/authorize?client_id=743835126730981456&scope=bot&permissions=66321471" align="center" class="chamkeela"><img src="./images/togepi_bot.png" class="iToolsLogo">  Add PGS ⬩ Togepi-bot 
+        <br> 
+        
+        
+
+    <br>
+    <a href="https://discord.com/invite/nHu2uqN" id="showhide-button" class="buttonalu glow button">Join our Discord Server<br> <img src="https://images-ext-2.discordapp.net/external/I9T11MY8nXsPdRAOg7wBpwmPxFo82wkQ2EzbAtIeask/%3Fsize%3D512/https/cdn.discordapp.com/icons/780052013924220968/a_8b2b0d43ec9d9106737ce6909c9b0c23.gif" alt="iTools Logo" class="iToolsLogo">
+    </a> 
+
+
+    <script src="./js/countdown.js.download" type="text/javascript"></script>
+    <script src="./js/buildTable.js.download" type="text/javascript"></script>
+    <script src="./js/buildHTML.js.download" type="text/javascript"></script>
+    <script type="text/javascript">
+        var migration = new Date(migrationDate);
+        $('#clock').countdown(migration, function(event) {
+            var $this = $(this).html(event.strftime(
+                '<countdown>%Ddays ' +
+                '%Hhrs ' +
+                '%Mmins ' +
+                '%Ssecs</countdown>'));
+                if (event.elapsed) {
+				location.assign();
+                }
+        });
+        window.onload = buildHTMLPage();
+        window.onscroll = () => {stickyNavbar()};
+    </script>
+
+<br>     		
+</div>
+<script src="./index_files/jquery.min.js.download"></script>
+<script src="./index_files/jquery.countdown.min.js.download"></script>
+<script type="text/javascript">
+    var migrate = new Date('2020-12-10T01:00:00Z');
+    $('#clock').countdown(migrate, function(event) {
+        var $this = $(this).html(event.strftime(''
+        + '<div class="holder"><div class="item"><span>%w</span> Week</div>'
+        + '<div class="item"><span>%d</span> Day(s)</div></div>'
+        + '<div class="holder"><div class="item"><span>%H</span> Hr(s)</div>'
+        + '<div class="item"><span>%M</span> Min(s)</div>'
+        + '<div class="item"><span>%S</span> Sec(s)</div></div>'));
+        if (event.elapsed) {
+            location.reload();
+        }
+    });
+</script>
 </iframe>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
