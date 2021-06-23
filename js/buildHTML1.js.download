@@ -1,9 +1,7 @@
 // Insert Footer
 function buildFooter() {
 
-    let footer = document.getElementById("footer");
-    let footerRaw = `<div class="boundboxb"> <div class="footer-container"> <div class="footerC" style="font-family:lithos; font-size:24px">~ Master Nest ~</div><div class="footerC">developed by <strong>DexHolder23</strong></div><div class="footerC">sponsored & brought together by the amazing </div><div class="footerC">team of <strong>CoolDownClub</strong></div><div class="footerC1"> <div class="discordLogo"> <a href="https://discord.gg/yaFNCak"> <i class="fab fa-discord"></i> </a> </div><div> <i>join the club!</i> </div></div><div class="footerC2"> <a href="./itools.html"> <img src="resources/images/iToolslogo.png" alt="iTools Logo" class="iToolsLogo"> </a> <div> <i>iTools Partner</i> </div></div></div></div>`;
-    footer.innerHTML = footerRaw
+    let footer = document.getElementById("footer");    footer.innerHTML = footerRaw
 
 }
 
