@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: is-a-good.dev
-Token: aede9fcd46340fc8ce9ab6797f9bba60d74b3a35be9c7213bf6bbfc78274ac32
